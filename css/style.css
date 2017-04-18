@@ -1,0 +1,64 @@
+/*start your css here*/
+#main-navbar {
+  width: 100%;
+  background-color: blue;
+  overflow: hidden;
+  position:relative;
+}
+#navbar-container ul li{
+  position: relative;
+  padding: 10px 20px;
+  display: block;
+  float:left;
+}
+#navbar-container ul{
+  position: relative;
+  display: block;
+  list-style-type: none;
+  right:50%;
+  padding: 0;
+  margin:0;
+  }
+#navbar-container{
+  left: 50%;
+  float: left;
+  position: relative;
+}
+#navbar-container a{
+  display: block;
+  text-decoration: none;
+  color:#fff;
+}
+#navbar-container a:active{
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+/* sidebar decoration*/
+
+#sidebar{
+  position: fixed;
+  padding: 0;
+  background-color: red;
+  right:0%;
+  height: 100%;
+  width:20%;
+  text-align: center;
+}
+
+#sidebar a{
+  color: #fff;
+  text-decoration:none;
+}
+
+#sidebar ul li{
+  display: block;
+  padding: 15px 0;
+  list-style-type: none;
+}
+
+#sidebar a :active{
+  background-color: #000;
+}
